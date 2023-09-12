@@ -1,0 +1,164 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background.png);
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+
+.uzu a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 90px;
+}
+
+.list ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.list ul li:last-child a{
+  background: transparent;
+  margin-left: 50px;
+  margin-right: 120px;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  padding: 8px 18px;
+  border-radius: 40px;
+}
+
+.list ul li:first-child{
+  border-bottom: 2px solid white;
+}
+
+.list ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+}
+
+.list ul li:not(:last-child):not(:first-child) a:hover {
+  border-bottom: 2px solid white;
+  transition: .4s;
+}
+
+.list ul li:last-child a:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 10px 20px;
+  transition: .4s;
+}
+
+.main {
+  display: flex;
+}
+
+.main .txt {
+  padding-left: 90px;
+  padding-top: 130px;
+}
+
+.main .txt h6 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.main .txt h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.main .txt h1 {
+  color: white;
+  font-size: 90px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.main .txt p {
+  color: white;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 90px;
+}
+
+.main .txt a.btn1 {
+  text-decoration: none;
+  color: black;
+  background: white;
+  border: 2px solid transparent;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.main .txt a.btn1:hover {
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  transition: .4s;
+}
+
+.main .txt a.btn2 {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  padding: 10px 33px;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.main .txt a.btn2 i {
+  margin-right: 8px;
+}
+
+.main .txt a.btn2:hover {
+  background: white;
+  color: black;
+  border: 2px solid white;
+  transition: .4s;
+}
+
+.main .naruto img {
+  width: 600px;
+  height: 800px;
+  margin-right: 60px;
+}
+
+.main .txt .fot a {
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.main .txt .fot a:hover {
+  transform: scale(1.2);
+  transition: .4s;
+  color: white;
+}
